@@ -1,0 +1,64 @@
+*{
+    font-family: "Roboto";
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Header*/
+header{
+    background-color: var(--amarillo);
+    
+}
+.banner{
+    padding-bottom:0px;
+    margin: 0;
+    width:100%
+}
+.logo{
+    display: block;
+    margin: auto;
+}   
+.barrabq{
+    text-align: center;
+    margin: 20px;
+}
+.navi{
+    display: inline;
+}
+nav ul{
+    display: inline;
+}
+div .fa-bars{
+    background-color: var(--celeste);
+    color: var(--griscla);
+    margin: 10px 0 10px;
+    margin-left: 45%;
+    padding: 12px;
+    border-radius: 6px;
+    
+}
+/*Main*/
+section h2 .titular{
+    font-size: 12px;
+}
+section p .precios{
+    font-size: 18px;
+}
+section span .descuentos{
+    font-size: 16px;
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    margin-top: 20%;
+}
+.fa-user-shield, .fa-gift, .fa-credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+.copy{
+    color: var(--grisosc)
+}
