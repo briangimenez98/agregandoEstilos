@@ -8,12 +8,10 @@
 /*Header*/
 header{
     background-color: var(--amarillo);
-    
 }
 .banner{
-    padding-bottom:0px;
-    margin: 0;
-    width:100%
+    display:inline-block;
+    width:100%;
 }
 .logo{
     display: block;
